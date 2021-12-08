@@ -35,8 +35,8 @@ This script was developed to identify extensions in an STR near the Frataxin (FX
     * [bedtools/2.27.1](https://github.com/arq5x/bedtools2)
     * [samtools/1.3.1](http://www.htslib.org/doc/1.3.1/samtools.html)
 
-    Flags
-    -----
+  Flags
+  -----
 
     | Flag | Argument                            | Default                     | Description                                                    |
     |------|-------------------------------------|-----------------------------|----------------------------------------------------------------|
