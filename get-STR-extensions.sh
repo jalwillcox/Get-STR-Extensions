@@ -1,15 +1,5 @@
 #!/bin/bash
 
-#SBATCH -J get-STR-extensions
-#SBATCH -o %x.%j.log
-#SBATCH -e %x.%j.err
-#SBATCH -p short
-#SBATCH -t 0-05:00:00
-#SBATCH -n 1
-#SBATCH -c 1
-#SBATCH --mem=1G
-##SBATCH --dependency=singleton
-
 echo $0 $@
 
 ### USAGE
